@@ -32,6 +32,6 @@ Run the command `mvn clean install -DskipTests` in a terminal to build the proje
 ## Execute Full Suite
 Run the command `mvn test` in a terminal.
 ## Execute Given Test Suite
-Run the command `mvn test -Dtest.suite=CategoryTests` in a terminal considering **CategoryTest** is the name of the test suite xml file Ex: **OrderTests.xml**.
+Run the command `mvn test -Dtest.suite=CategoryTests` in a terminal considering **CategoryTest** is the name of the test suite xml file Ex: **CategoryTest.xml**.
 # View Test Results Report
 Open the file `target/surefire-reports/index.html` in a web browser to view the HTML test results report.
